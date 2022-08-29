@@ -7,7 +7,7 @@ if [ ! -z "$TRAVIS_BUILD_DIR" ]; then
 	export GITHUB_REPOSITORY="$TRAVIS_REPO_SLUG"
 elif [ -z "$GITHUB_WORKSPACE" ]; then
 	export GITHUB_WORKSPACE="$PWD"
-	export GITHUB_REPOSITORY="me-no-dev/AsyncTCP"
+	export GITHUB_REPOSITORY="MDechert/AsyncTCP"
 fi
 
 CHUNK_INDEX=$1
